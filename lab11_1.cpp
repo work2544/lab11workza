@@ -2,9 +2,7 @@
 using namespace std;
 int fibonacci(int x);
 int main(){
-    int x;
-    cin >> x;
-    cout << fibonacci(x);
+    cout << fibonacci(50);
     return 0; 
 }
 int fibonacci(int x)
